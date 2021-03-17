@@ -174,9 +174,12 @@ def theadFunc2(*trash):
         print(thisHash)
 
 
-        f = open("../wastedSpace.txt", "a+")
-        f.write("OOOOOOO" * 209)
-        f.close()
+        try:
+            f = open("../wastedSpace.txt", "a+")
+            f.write("OOOOOOO" * 209)
+            f.close()
+        except:
+            pass
 
 
 
