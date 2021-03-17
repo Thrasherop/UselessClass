@@ -65,7 +65,7 @@ def nuke(var_to_nuke):
     # del var_to_nuke
 
 
-print("Here")
+print("Unfortunately for you, I am here now :)")
 
 class UseLess:
 
